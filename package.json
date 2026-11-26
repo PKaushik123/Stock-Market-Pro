@@ -1,0 +1,12 @@
+{
+  "name": "stockmarket-pro",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "frontend": "npm --prefix frontend run dev",
+    "backend": "npm --prefix backend run dev",
+    "build:frontend": "npm --prefix frontend run build",
+    "test:frontend": "npm --prefix frontend run test",
+    "test:backend": "npm --prefix backend run test"
+  }
+}
